@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/*
+
+Ideas:
+- more static stars in background.
+- some easter egg thing that leads to a game
+*/
+
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
