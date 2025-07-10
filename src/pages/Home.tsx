@@ -12,7 +12,7 @@ export const Home = () => {
       {/* Navbar */}
       <Navbar />
       {/* Main Content */}
-      Hello World!
+      <main>{/* <LB_MainSection /> */}</main>
       {/* Footer */}
     </div>
   );
