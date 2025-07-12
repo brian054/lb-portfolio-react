@@ -3,12 +3,12 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+          {/* <Route index element={<About />} /> hmmm */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
