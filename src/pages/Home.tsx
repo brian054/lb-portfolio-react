@@ -1,6 +1,8 @@
 import { Navbar } from "@/components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
+import { LB_HomeSection } from "@/components/LB_HomeSection";
+import { AboutSection } from "@/components/AboutSection";
 
 export const Home = () => {
   return (
@@ -12,7 +14,11 @@ export const Home = () => {
       {/* Navbar */}
       <Navbar />
       {/* Main Content */}
-      <main>{/* <LB_MainSection /> */}</main>
+      <main>
+        {/* <LB_MainSection /> */}
+        <LB_HomeSection />
+        <AboutSection />
+      </main>
       {/* Footer */}
     </div>
   );
