@@ -3,6 +3,7 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { LB_HomeSection } from "@/components/LB_HomeSection";
 import { AboutSection } from "@/components/AboutSection";
+import { SkillsSection } from "@/components/SkillsSection";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
         {/* <LB_MainSection /> */}
         <LB_HomeSection />
         <AboutSection />
+        <SkillsSection />
       </main>
       {/* Footer */}
     </div>
