@@ -1,4 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
+import resumePdf from "../../src/assets/Resume_BrianRowell.pdf";
 
 export const AboutSection = () => {
   return (
@@ -13,10 +14,25 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-semibold">Software Developer</h3>
 
             <p className="text-muted-foreground">
-              years of experience, basically the linked in about thingy
+              I earned my Bachelor's in Computer Science from the University of
+              Kentucky in 2023 and have since gained three years of industry
+              experience in full stack web development. All of my experience so
+              far has been using C#, SQL, JavaScript, TypeScript, Angular, and
+              React. I've primarily worked on MVC .NET applications, Angular
+              frontends, and .NET based APIs.
             </p>
 
-            <p className="text-muted-foreground">More stuff</p>
+            <p className="text-muted-foreground">
+              Outside of work, I'm developing 2D Games using the Monogame
+              framework (C# based), and I am hoping to release my "Intro to Game
+              Development using C# and Monogame" course in late 2025!
+            </p>
+
+            <p className="text-muted-foreground">
+              I'm also actively expanding my development skills and integrating
+              AI when appropriate to solve the problems I face every day as a
+              developer.
+            </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
@@ -24,8 +40,9 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
-                className="px-6 py-2 rounded0full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                href={resumePdf}
+                target="_blank"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV/Resume
               </a>
@@ -39,9 +56,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Dev</h4>
+                  <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating blah blah blah...get specific
+                    Creating responsive websites and web applications with
+                    modern frameworks.
                   </p>
                 </div>
               </div>
@@ -50,12 +68,13 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">References</h4>
+                  <h4 className="font-semibold text-lg">AI Programs</h4>
                   <p className="text-muted-foreground">
-                    Creating blah blah blah...get specific
+                    Recently, and in my previous jobs, I've written AI tools to
+                    increase efficiency in my workflows and the companies I've worked for.
                   </p>
                 </div>
               </div>
@@ -63,12 +82,13 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Work Exp</h4>
+                  <h4 className="font-semibold text-lg">Driven</h4>
                   <p className="text-muted-foreground">
-                    Creating blah blah blah...get specific
+                    I am a coachable and driven individual, and I pride myself
+                    on continuously improving my skills daily.
                   </p>
                 </div>
               </div>
